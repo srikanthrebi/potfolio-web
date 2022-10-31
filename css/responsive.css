@@ -1,0 +1,189 @@
+@media (max-width:576px){
+    .d-xs-none{
+        display: none !important;
+    }
+    .d-xs-block{
+        display: block !important;
+    }
+    .row{
+        margin: 0;
+    }
+    .row>*{
+        width: 100%;
+    }
+    /* ------------------changes-------------------- */
+    .img-about{
+        margin-bottom: 20px;
+    }
+    .img-03{
+        border-right: none;
+    }
+    .banner-content h1{
+        font-size: 26px;
+    }
+    .banner-content p{
+        font-size: 14px;
+    }
+    .banner-content .home a{
+        padding: 10px 20px;
+    }
+    .head-title{
+        text-align: center;
+    }.banner-content{
+        padding: 350px 0;
+    }
+    .img-03 ul{
+        margin-left: 0;
+    }
+    .testi-content{
+        margin-bottom: 120px;
+    }
+    .text-center ul li a{
+        margin-right: 0;
+    }
+    .footer-links{
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    .footer-item-01{
+        margin-bottom: 50px;
+    }
+    .tittle-section h3{
+        font-size: 21px;
+    }
+
+    .col-ph-1{
+        width: 8.33%;
+        padding: 0 15px;
+    }
+    .col-ph-2{
+        width: 16.66%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-3{
+        width: 25%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-4{
+        width: 33.33%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-5{
+        width: 41.66%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-6{
+        width: 50%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-7{
+        width: 58.33%;
+        padding: 0 15px;
+    
+ 
+    }
+    .col-ph-8{
+        width: 66.66%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-9{
+        width: 75%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-10{
+        width: 83.33%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-11{
+        width: 91.66%;
+        padding: 0 15px;
+    
+    }
+    .col-ph-12{
+        width: 100%;
+        padding: 0 15px;
+    
+    }
+ 
+}
+
+/* --------------large-device------------------- */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .d-block{
+        display: block !important;
+    }
+  
+    /* column */
+    .col-1{
+        width: 8.33%;
+        padding: 0 15px;
+    }
+    .col-2{
+        width: 16.66%;
+        padding: 0 15px;
+    
+    }
+    .col-3{
+        width: 25%;
+        padding: 0 15px;
+    
+    }
+    .col-4{
+        width: 33.33%;
+        padding: 0 15px;
+    
+    }
+    .col-5{
+        width: 41.66%;
+        padding: 0 15px;
+    
+    }
+    .col-6{
+        width: 50%;
+        padding: 0 15px;
+    
+    }
+    .col-7{
+        width: 58.33%;
+        padding: 0 15px;
+    
+    }
+    .col-8{
+        width: 66.66%;
+        padding: 0 15px;
+    
+    }
+    .col-9{
+        width: 75%;
+        padding: 0 15px;
+    
+    }
+    .col-10{
+        width: 83.33%;
+        padding: 0 15px;
+    
+    }
+    .col-11{
+        width: 91.66%;
+        padding: 0 15px;
+    
+    }
+    .col-12{
+        width: 100%;
+        padding: 0 15px;
+    
+    }
+}
