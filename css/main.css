@@ -10,12 +10,13 @@ body{
 /* container */
 .container{
     width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .row{
     display: flex;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -15px;
+    margin-right: -15px;
     flex-wrap: wrap;
 }
 
@@ -224,21 +225,6 @@ background-color: #cda45e;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* section */
 .top-sec-1{
    color: #cda45e;
@@ -265,8 +251,8 @@ background-color: #cda45e;
 .banner-section{
     background-image: linear-gradient(rgb(0 0 0 / 45%),rgb(0 0 0 / 45%)), url(../image/hero-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
+    background-attachment: scroll;
 }
 .banner-content{
     padding: 250px 0;

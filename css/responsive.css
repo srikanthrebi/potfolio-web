@@ -10,7 +10,10 @@
     .contact-menu li a{
         margin-right: 0px;
     }
-   
+    .row{
+        margin-left:0 ;
+        margin-right: 0;
+    }
 
     .img-about{
         margin-bottom: 20px;
@@ -60,6 +63,13 @@
         font-size: 25px;
         text-decoration: none;
     }
+    .order-1{
+        order: 2;
+    }
+    .order-2{
+        order: 1;
+    }
+    
 
     .col-ph-1{
         width: 8.33%;
@@ -126,7 +136,19 @@
 /* ---------------min-567-device----------- */
 @media (min-width:576px){
     
-   
+    .row{
+        margin-left:0 ;
+        margin-right: 0;
+    }
+    .head-title{
+        text-align: center;
+    }
+    .img-about{
+        margin-bottom: 25px;
+    }
+    .testi-content{
+        margin-bottom: 120px;
+    }
     .menu-bar{
         text-align: end;
 
@@ -142,7 +164,12 @@
     .d-xs-block{
         display: block !important;
     }
-
+    .order-1{
+        order: 2;
+    }
+    .order-2{
+        order: 1;
+    }
     
     .col-sm-1{
         width: 8.33%;
@@ -207,11 +234,8 @@
 }
 /* ---------------------min-970--------------- */
 @media (min-width:768px){
-    .container{
-        width: 765px;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
+   
+    
     .img-about{
         margin-bottom: 20px;
     }
@@ -272,7 +296,7 @@
     
     }
     .col-md-10{
-        width: 83.33%;
+        width: 83.33%; 
         padding: 0 15px;
     
     }
@@ -290,13 +314,20 @@
 @media (min-width:992px){
     .container{
         width: 990px;
+        padding: 0 15px;
+        margin: 0 auto;
     }
+    .row{
+        margin-left:0 ;
+        margin-right: 0;
+    }
+    .text-align{
+        text-align: center;
+    }    
     .banner-content{
         padding: 350px 0;
     }
-    .head-title{
-        text-align: center;
-    }
+  
     .col-lg-1{
         width: 8.33%;
         padding: 0 15px;
@@ -361,14 +392,26 @@
 @media (min-width:1200px){
     .container{
         width: 1170px;
-        padding: 0 15px;
-        margin: 0 auto;
+       
     }
+    .row{
+        margin-left: -15px;
+        margin-right:  -15px;
+    }
+   
+    .text-align{
+        text-align: center;
+    }    
+
     .d-block{
         display: block !important;
     }
     .d-none{
         display: none !important;
+    }
+   
+    .head-title{
+        text-align: left;
     }
   
     /* column */
