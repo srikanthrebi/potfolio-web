@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- main-menu -->
-    <header id="header">
+    <header id="header" >
       <div class="top-menu ">
 
         <div class="container">
@@ -54,13 +54,13 @@
                 <div class="col-7 d-block d-xs-none text-align">
                     <nav class="nav-bar ">
                         <ul class="nav-list">
-                            <li><a href="#"> <span> Home</span></a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Special</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Chefs</a></li>
-                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#home"> <span> Home</span></a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#special">Special</a></li>
+                            <li><a href="#event">Event</a></li>
+                            <li><a href="#chefs">Chefs</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
                             <li class="drop-down"><a href="#">Drop Down</a> 
                             <ul class="drop-down-1">
                               <li><a href="#">Drop Down 1</a> </li>
@@ -70,6 +70,7 @@
                             </ul>
                             
                             </li>
+                         </ul>
                     </nav>
                 </div>
                 <div class="col-2 text-right d-xs-none d-block">
@@ -88,30 +89,39 @@
    
 
 
-    <section class="banner-section">
+    <section class="banner-section" id="home">
      
       <div class="container">
-        <div class="banner-content">
-         <div class="head-title">
-          <h1>Welcome to <span>Restaurantly</span></h1>
-          <p>Delivering great food for more than 18 years!</p>
-          <div class="home">
-            <a href="#">Our Menu</a>
-          <a href="#">Book a table</a>
+        <div class="row">
+          <div class="col-8">
+            <div class="banner-content">
+              <div class="head-title">
+               <h1 id="home">Welcome to <span>Restaurantly</span></h1>
+               <p>Delivering great food for more than 18 years!</p>
+               <div>
+                 <a href="#menu" id="about">Our Menu</a>
+               <a href="#">Book a table</a>
+               </div>
+              </div>
+             </div>
           </div>
-         </div>
+          <!-- <div class="col-4">
+            <div class="max">
+              <a href="https://youtu.be/5oJW0IklMq4">max</a>
+            </div>
+          </div> -->
         </div>
       </div>
     </section>    
     
 <!-- section-about start -->
 
-<section class="about-banner-section">
+<section class="about-banner-section" id="about">
   <div class="container">
     <div class="about-banner-content">
-      <div class="row">
+      <div class="row d-reverse">
     
-        <div class="col-6 col-ph-12 col-sm-12 col-md-12 order-1">
+        <div class="col-6 col-ph-12 col-sm-12 col-md-12">
           <div class="about-text-1">
            <h3> Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -123,7 +133,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-6 col-ph-12 col-sm-12 col-md-12 order-2">
+        <div class="col-6 col-ph-12 col-sm-12 col-md-12">
           <div class="about-img-01">
             <img src="image/about.jpg" class="about-img">
           </div>
@@ -180,7 +190,7 @@
    <div class="row">
     <div class="col-12 col-ph-12 col-sm-12 col-md-12">
       <div class="tittle-section">
-        <h5>Menu</h5>
+        <h5 id="menu">Menu</h5>
         <h3>Check Our Tasty Menu</h3>
       </div>
     </div>
@@ -341,7 +351,7 @@
     <div class="row">
       <div class="col-12 col-ph-12 col-sm-12 col-md-12">
         <div class="tittle-section">
-          <h5>species</h5>
+          <h5 id="special">species</h5>
           <h3>Check Our Specials</h3>
         </div>
       </div>
@@ -389,7 +399,7 @@
       <div class="row">
         <div class="col-12 col-ph-12 col-sm-12 col-md-12">
           <div class="tittle-section">
-            <h5>Event</h5>
+            <h5 id="event">Event</h5>
             <h3>WHY CHOOSE YOUR RESTURENT</h3>
           </div>
         </div>
@@ -471,7 +481,8 @@
         </div>
         <div class="col-12 col-ph-12 col-sm-12 col-md-12">
           <div class="box-btn">
-            <a href="#">Book a Table</a>
+            
+            <button type="submit" value="submit"> Book a Table</button>
           </div>
         </div>
       </div>
@@ -544,7 +555,7 @@
         <div class="row">
           <div class="col-12 col-ph-12 col-sm-12 col-md-12">
             <div class="tittle-section">
-              <h5>Gallery</h5>
+              <h5 id="gallery">Gallery</h5>
               <h3>WHY CHOOSE YOUR RESTURENT</h3>
             </div>
           </div>
@@ -591,7 +602,7 @@
     <div class="row">
       <div class="col-12 col-ph-12 col-sm-12 col-md-12">
         <div class="tittle-section">
-          <h5>chefs</h5>
+          <h5 id="chefs">chefs</h5>
           <h3>WHY CHOOSE YOUR RESTURENT</h3>
         </div>
       </div>
@@ -741,7 +752,7 @@
               </div>
               <div class="col-12 col-ph-12 col-sm-12 col-md-12">
                 <div class="box-btn">
-                  <a href="#">Book a Table</a>
+                  <button type="submit" value="submit"> Book a Table</button>
                 </div>
               </div>
             </div> 
@@ -825,7 +836,8 @@
                   <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna
                   </p>
                   <div class="footer-btn">
-                    <button>Subscripe</button>
+                    <input type="text" name="" id="" class="footer-link-1">
+                    <input type="submit" value="Subscripe" class="footer-link-2">
                   </div>
                 </div>
               </div>
